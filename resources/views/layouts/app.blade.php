@@ -24,11 +24,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Logo</a>
+            <a class="navbar-brand" href="/home">Logo</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#about">ABOUT</a></li>
+            <li><a href="/info">ABOUT</a></li>
             <li><a href="#services">SERVICES</a></li>
             <li><a href="#portfolio">PORTFOLIO</a></li>
             <li><a href="#pricing">PRICING</a></li>
@@ -40,14 +40,14 @@
 <div class="jumbotron text-center">
     <h1>SHOW TRACKER</h1>
     <p>Keep track of local shows.</p>
-    <form class="form-inline">
+    {{-- <form class="form-inline">
         <div class="input-group">
             <input type="email" class="form-control" size="50" placeholder="Email Address." required>
             <div class="input-group-btn">
                 <button type="button" class="btn btn-info">Subscribe</button>
             </div>
         </div>
-    </form>
+    </form> --}}
 </div>
 
 @yield('content')

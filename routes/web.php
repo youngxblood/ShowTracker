@@ -11,12 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', 'ShowsController@index');
+Route::get('/shows/create', function () {
+    return view('shows.create');
 });
 
-Route::get('/contact', function () {
-    return view('pages.contact');
+Route::get('/info', function () {
+    return view('pages.info');
 });
 
 Auth::routes();

@@ -8,7 +8,7 @@
 
     <div class="col-lg-4">
         <div class="text-center panel-header">
-            <h2>Header</h2>
+            <h2>First Show</h2>
         </div>
         <div class="panel-body">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -21,7 +21,7 @@
         </div>
         <div class="col-lg-4">
             <div class="text-center panel-header">
-                <h2>Header</h2>
+                <h2>Second Show</h2>
             </div>
             <div class="panel-body">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -34,7 +34,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="text-center panel-header">
-                    <h2>Header</h2>
+                    <h2>Third Show</h2>
                 </div>
                 <div class="panel-body">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
