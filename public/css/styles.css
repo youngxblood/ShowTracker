@@ -1,5 +1,5 @@
 .panel-header {
-    background-color: #008040;
+    background-color: #61707D;
     color: #fff;
     height: 50px;
     box-shadow: 2px 2px 2px #d9d9d9;
@@ -10,6 +10,44 @@
 }
 
 .panel-body {
-    background-color: #b3ffcc;
+    background-color: #EAE8FF;
     box-shadow: 2px 2px 2px #d9d9d9;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #9D69A3;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #4C5F6B !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.jumbotron {
+    background-color: #9D69A3;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.logo {
+    font-size: 200px;
 }
