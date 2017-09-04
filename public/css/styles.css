@@ -1,0 +1,15 @@
+.panel-header {
+    background-color: #008040;
+    color: #fff;
+    height: 50px;
+    box-shadow: 2px 2px 2px #d9d9d9;
+}
+
+.panel-header h2 {
+    line-height: 150%;
+}
+
+.panel-body {
+    background-color: #b3ffcc;
+    box-shadow: 2px 2px 2px #d9d9d9;
+}
